@@ -1,5 +1,4 @@
-
-export  const carddata = [
+export const carddata = [
   {
     id:1,
     img:'../../Images/card-villa-img.png',
@@ -18,7 +17,7 @@ export  const carddata = [
     service2:'Ladies Private Beach & Private Pools',
     service3:'Men’s Pool',
     service4:'Stage Programs',
-    date:"Select Date",
+    date:"Select Date", 
     adultlabel:"Adults SAR 180",
     plus:"+",
      years:"(12+ Years)",
@@ -121,3 +120,58 @@ export const faq = [
     }
   ]
   
+
+// const apiEndPOint = 'http://localhost:4000/api/event/eventslist'
+// fetch(apiEndPOint).then(result=>{
+// return result.json()
+// }).then(res=>{
+//   console.log(res.message)
+//   carddata=res.message.map(item=>{
+//     // carddata.id=res.message.eventid
+//     // carddata.heading = res.message.title_en
+//     // carddata.cardpara = res.message.descri_en
+//     return {
+//       id:item.eventid,
+//       img:'../../Images/card-villa-img.png',
+//       imgicon:'../../Images/image-icon.png',
+//       heading:item.title_en,
+//       logo:"../../Images/card-info-icon.png",
+//       logoheading:"T&C Information",
+//       plussign:'../../Images/plus-sign.png',
+//       lpara1:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+//       lpara2:`Lorem Ipsum been the industry's standard`,
+//       lpara3:'Dummy text ever since the 1500s, when an unknown printer took a galley of type',
+//       lpara4:'Scrambled it make a pe specimen book.',
+//       cardpara:item.descri_en,
+//       cardpara1:"family and get access to",
+//       service1:'Gourmat Meal',
+//       service2:'Ladies Private Beach & Private Pools',
+//       service3:'Men’s Pool',
+//       service4:'Stage Programs',
+//       date:"Select Date",
+//       adultlabel:"Adults SAR 180",
+//       plus:"+",
+//        years:"(12+ Years)",
+//        childrensrt:"Children SAR 110",
+//        minus:"-",
+//        years1:"(2-11 Years)",
+//     promo:"Promo Code",
+//     apply:"Apply",
+//     button:"ADD TO CART",
+//     Share:"Share",
+//     Shareimg:"../../Images/share-svgrepo-icon.png",
+//     Shareimg1:"../../Images/share-popup-close.png",
+//     Sharevia:"Share this link via",
+//     Embedimg:"../../Images/embed-share.png",
+//     Embed:"Embed",
+//     WhatsAppimg:"../../Images/share-popup-close.png",
+//     WhatsApp:"WhatsApp",
+//     Gmailimg:"../../Images/share-popup-close.png",
+//     Gmail:"Gmail",
+//     Copy:"Copy",
+//     }
+//   })
+//   console.log('card data value:',carddata)
+// })
+
+// export {carddata}
