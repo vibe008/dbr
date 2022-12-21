@@ -67,7 +67,7 @@ const Event = (props) => {
 							<div className="card-inner">
 								<div className="">
 									<div className="book-card-heading">
-										<h5>{props.respdata[0].title_en}</h5>
+										<h5>{props.data.heading}</h5>
 										<button className="info-trigger" onClick={opentc}><img src={props.data.logo} alt="" /></button>
 										<div className={open ? "info-container expand" :"info-container " }>
 											<div className="info-card-title">

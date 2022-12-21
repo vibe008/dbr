@@ -46,7 +46,7 @@ function Card(props) {
 		<>
 			{carddata.map((data, index) => {
 				return (
-					<Event key={index} data={data} respdata={respdata}/>
+					<Event key={index} data={data} />
 				)
 			})}
 
